@@ -1,77 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 * {
-    font-family: "Mulish", serif;
+  font-family: "Mulish", serif;
 }
 
 :root {
-    --primary-color: #458FF6;
+  --primary-color: #458ff6;
 }
 
 .text-hover-effect:hover {
-    transition: all 0.5s;
-    color: black !important;
-    font-weight: 700;
+  transition: all 0.5s ease-in-out;
+  color: black !important;
+  font-weight: 700;
 }
 
 .font-size-secondary {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .left-right-padding {
-    padding:  0 15em 0 15em !important;
+  /* padding:  0 15em 0 15em !important; */
 }
 
 .logo {
-    background-color: var(--primary-color);
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    color: #FFFFFF;
+  background-color: var(--primary-color);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: #ffffff;
 }
 
 .logo-text {
-    font-size: 26px !important;
+  font-size: 26px !important;
 }
 
 .side-logo-text {
-    font-size: 24px !important;
-    padding-left: .3em !important;
-    font-weight: 700 !important;
+  font-size: 24px !important;
+  padding-left: 0.3em !important;
+  font-weight: 700 !important;
 }
 
 .image-section {
-    width: 900px;
-    height: 500px;
+  width: 900px;
+  height: 500px;
 }
 
-.image-section img { 
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    filter: contrast(110%);
+.image-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  filter: contrast(110%);
 }
 
 .btn {
-    background-color: var(--primary-color) !important;
-    color: white !important;
-    border-radius: 50px !important;
-    font-weight: bold !important;
-    font-size: 18px !important;
-    margin-top: 1em !important;
-    padding:  0.6em 2em !important;
+  background-color: var(--primary-color) !important;
+  color: white !important;
+  border-radius: 50px !important;
+  font-weight: bold !important;
+  font-size: 18px !important;
+  margin-top: 1em !important;
+  padding: 0.6em 2em !important;
 }
 
-
 .header-para-color {
-    color: #7D7987;
-    width: 80%;
-    margin-top: 1em;
+  color: #7d7987;
+  width: 80%;
+  margin-top: 1em;
 }
 
 .h1-margin {
-    margin-top: 2em;
-    font-size: 3rem;
-    /* border: 2px solid red !important; */
+  margin-top: 2em;
+  font-size: 3rem;
+  /* border: 2px solid red !important; */
+}
+
+.services-line {
+  width: 60px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: black;
+  margin: 0 auto;
+}
+
+.text-color {
+  color: #7d7987;
+}
+
+.image-size {
+  width: 50%;
+  height: 80%;
+  object-fit: cover;
+  /* filter: contrast(100%); */
+}
+
+.border-custom {
+  border: 2px solid red !important;
+}
+
+.margin-top-services {
+  margin-top: 5em;
 }
