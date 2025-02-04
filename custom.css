@@ -124,6 +124,19 @@
   box-shadow: rgba(151, 151, 151, 0.2) 0px 8px 24px;
 }
 
+.para-text-color {
+  color: #7d7987;
+}
+
+.line {
+  display: block;
+  margin-top: 2em;
+  width: 60px;
+  height: 3px;
+  border-radius: 100px;
+  background-color: black;
+}
+
 .btn-wrapper {
   margin-top: 5em;
   display: flex;
@@ -151,6 +164,14 @@
   position: absolute;
   top: 50%;
   right: 10%;
+}
+
+.margin-space {
+  margin-top: 15em;
+}
+
+.image-contrast {
+  filter: contrast(110%);
 }
 
 @media (max-width: 991px) {
