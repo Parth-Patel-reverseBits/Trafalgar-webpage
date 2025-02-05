@@ -285,6 +285,25 @@
   margin-top: 10em;
 }
 
+.footer-inner-logo {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #5b9bf3;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+
+.logo-font-size {
+  font-size: 24px;
+  padding-left: 0.5em;
+}
+
 @media (max-width: 991px) {
   #vertical-center {
     display: block !important;
