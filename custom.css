@@ -281,6 +281,10 @@
   z-index: 100;
 }
 
+.custom-article-margin {
+  margin-top: 10em;
+}
+
 @media (max-width: 991px) {
   #vertical-center {
     display: block !important;
