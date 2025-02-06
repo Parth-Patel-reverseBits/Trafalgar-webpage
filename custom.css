@@ -114,16 +114,27 @@
 }
 
 .custom-card-size {
-  width: 280px !important;
-  height: 290px !important;
+  min-width: 350px !important;
+  height: 354px !important;
   border-radius: 20px !important;
+  padding-left: 39px !important;
+  padding-right: 45px !important;
+  padding-top: 54px !important;
+}
+
+.card-para-size {
+  width: 266px;
 }
 
 .custom-card-border {
   border: none !important;
-  box-shadow: rgba(151, 151, 151, 0.2) 0px 8px 24px;
+  /* box-shadow: rgba(151, 151, 151, 0.2) 0px 8px 24px; */
+  filter: drop-shadow(10px 40px 50px #e5e9f6);
 }
 
+.col {
+  flex: 0 !important;
+}
 .para-text-color {
   color: #7d7987;
 }
