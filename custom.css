@@ -200,6 +200,16 @@
   border: 3px solid white;
 }
 
+.custom-card-padding {
+  padding-right: 33px !important;
+  padding-left: 51px !important;
+  padding-top: 24px !important;
+}
+
+.custom-line-height {
+  line-height: 28px !important;
+}
+
 .buttons-div {
   /* border: 2px solid red !important; */
   position: relative;
@@ -247,9 +257,14 @@
 
 .custom-article-border-radius {
   border-radius: 20px !important;
-  box-shadow: rgba(153, 153, 154, 0.15) 0px 48px 100px 0px;
   border: none !important;
   padding-bottom: 1em;
+  /* box-shadow: rgba(153, 153, 154, 0.15) 0px 48px 100px 0px; */
+  filter: drop-shadow(10px 40px 50px #e5e9f6);
+}
+
+.view-all-margin {
+  margin-top: 69px !important;
 }
 
 .custom-article-fontSize {
@@ -259,16 +274,21 @@
 .custom-article-font-para-color {
   color: #7d7987;
   font-size: 16px;
+  padding-top: 12px !important;
+}
+
+.read-more-btn-padding {
+  padding-top: 25px !important;
 }
 
 .custom-font-article-color {
   color: #4089ed;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .custom-image-bg-1 {
   position: absolute;
-  top: -3em;
+  top: 0em;
 }
 
 .custom-image-bg-2 {
