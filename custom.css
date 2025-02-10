@@ -380,6 +380,19 @@
   margin-bottom: 5rem !important;
 }
 
+.custom-width-para {
+  width: 75%;
+}
+
+.custom-styling-indicators {
+  width: 300px;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/*------------------------------------- media query for mobile design -----------------------------------*/
+
 @media (max-width: 991px) {
   #vertical-center {
     display: block !important;
@@ -438,6 +451,7 @@
 
   .custom-styling-indicators {
     width: 300px;
+    width: 100%;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
@@ -464,6 +478,12 @@
   .carousel-indicators {
     /* border: 2px solid red !important; */
     width: fit-content !important;
+  }
+
+  .custom-card-padding {
+    padding-right: 33px !important;
+    padding-left: 33px !important;
+    padding-top: 24px !important;
   }
 
   .custom-justify {
@@ -521,10 +541,10 @@
 
   .position-mobile {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     text-align: center;
-    left: 0.9rem !important;
-    margin-bottom: 10px;
+    left: 24px !important;
+    right: 24px !important;
     /* border: 2px solid red !important; */
   }
 
@@ -542,7 +562,12 @@
 
   .custom-padding-both-sides {
     padding: 0 1.5rem !important;
-    /* border: 2px solid red; */
+    /* border: 2px solid red !important; */
+    text-align: justify;
+  }
+
+  .custom-width-para {
+    width: 100%;
   }
 
   .btn-parent {
